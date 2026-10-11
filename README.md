@@ -2,9 +2,8 @@
 
 Word 의뢰서 1건을 넣으면 Claude가 슬라이드를 분석·기획하고, Figma 플러그인이 템플릿 컴포넌트로 CG를 만들고, 판정 스크립트가 **가격 100% 일치 · detach 0개**를 검사한 뒤 디자이너가 승인하면 끝나는 Claude Code 하네스입니다.
 
-> 허들링 클럽 1차 실험 제출물 — 트랙 A(하네스 인증) + 트랙 B(도메인 스토리텔링)
-
-![시연 결과](runs/261020_1100_홍길동/check/result.png)
+> 허들링 클럽 1차 실험 제출물 — **트랙 B: 도메인 스토리텔링** ([story-service.md](docs/story-service.md), [story-work.md](docs/story-work.md))
+> 스토리에서 출발해 R2~R8 인터뷰로 이어 만든 하네스 전체도 함께 담았습니다.
 
 ## 흐름
 
