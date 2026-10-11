@@ -1,0 +1,17 @@
+{
+  "name": "의뢰서 CG 제작 (하네스용)",
+  "id": "mobilelive-fullcg-generator-harness",
+  "api": "1.0.0",
+  "main": "code.js",
+  "ui": "ui.html",
+  "editorType": [
+    "figma"
+  ],
+  "documentAccess": "dynamic-page",
+  "networkAccess": {
+    "allowedDomains": [
+      "none"
+    ],
+    "reasoning": "의뢰서 분석은 Claude 하네스가 하고, 플러그인은 하네스 데이터(p2_plan.json)만 받아 Figma에 적용하므로 외부 통신이 필요 없다."
+  }
+}

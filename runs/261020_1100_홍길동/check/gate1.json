@@ -1,0 +1,54 @@
+{
+  "gate": "gate1",
+  "result": "pass",
+  "fails": 0,
+  "maxFails": 3,
+  "time": "2026-10-11T13:44:57.927Z",
+  "checks": [
+    {
+      "id": "type_missing",
+      "value": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "id": "required_field_missing",
+      "value": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "id": "judgment_needed",
+      "value": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "id": "checklist_max_items",
+      "value": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "id": "slide_count_match",
+      "value": "7/7",
+      "limit": true,
+      "pass": true,
+      "details": [
+        "의뢰서 슬라이드 칸 6개 (1,2,3,4,5,6) + 빈 전면 요청 1"
+      ]
+    },
+    {
+      "id": "price_source_match",
+      "value": true,
+      "limit": true,
+      "pass": true
+    },
+    {
+      "id": "image_instruction_as_text",
+      "value": 0,
+      "limit": 0,
+      "pass": true
+    }
+  ]
+}

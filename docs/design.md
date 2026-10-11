@@ -8,7 +8,7 @@
 
 | 항목 | 값 |
 |---|---|
-| 전면 CG 프레임 | 375 × 667 (`#Slide_Frame`) |
+| 전면 CG 프레임 | 375 × 667 (`#MobileLive-Module`) |
 | 배경 출력 해상도 | 750 × 1334 (@2x) |
 | 결과물 묶음 | `전면CG_묶음` 오토레이아웃 프레임, 슬라이드명 `01`, `02` … |
 
@@ -16,30 +16,30 @@
 
 | 컴포넌트 | 용도 |
 |---|---|
-| `#Slide_Frame` | 전면 프레임 마스터 |
-| `#Card_Product` | 상품형 카드 |
-| `#Card_Checklist` | 체크리스트형 카드 |
-| `#Card_Story` | 스토리형 카드 |
-| `#Background` | 배경 (상단 마스크 그라데이션 포함) |
-| `#Logo` | 브랜드 로고 (PNG, 투명 유지) |
-| `#Banner_Slim` | 상단 슬림배너 |
+| `#MobileLive-Module` | 전면 프레임 마스터 |
+| `#MainCard_Prd` | 상품형 카드 |
+| `#MainCard_Checklist` | 체크리스트형 카드 |
+| `#MainCard_Story` | 스토리형 카드 |
+| `#BG` | 배경 (상단 마스크 그라데이션 포함) |
+| `Logo` | 브랜드 로고 (PNG, 투명 유지) |
+| `MobileLive_Banner_Frame` | 상단 슬림배너 |
 
 ## 3. 레이어 네이밍 (텍스트 주입 대상)
 
-**상품형** `#Product_Title`, `#Product_Subtitle`, `#Thumb_Option_1~3`, `#Promo_Text`, `#Price_DiscountRate`
+**상품형** `#Prd_Title_txt`, `#Prd_SubTitle1_txt`, `#Thumbnail_Frame_option_1~3`, `#Promotion_txt`, `#Price-Discount rate`
 
-**스토리형** `#Story_Title`, `#Story_Main_1`, `#Story_Main_2`, `#Story_Highlight`, `#Story_Sub`, `#Story_Check_1~5`
+**스토리형** `#Title_Main Text`, `#Main_txt_1`, `#Main_txt_2`, `#Hightlight_Text`, `#Sub_Text`, `#CheckList_frame_1~5`
 
-**체크리스트** `#Check_Main_1~5`, `#Check_Sub_1~5`
+**체크리스트** `#Check_Main_txt_1~5`, `#Check_Sub_txt_1~5`
 
-> 레이어 이름은 템플릿과 정확히 일치해야 한다.
+> 레이어 이름은 템플릿과 정확히 일치해야 한다. 오타(`Hightlight`)도 템플릿 기준을 따른다.
 
 ## 4. 절대 규칙
 
 1. 컴포넌트·인스턴스를 **detach하지 않는다**. 텍스트와 표시 여부(visible)만 바꾼다.
 2. 새 레이어를 만들거나 스타일을 직접 지정하지 않는다. 컬러·폰트·간격은 템플릿 값을 그대로 쓴다.
 3. 값이 없는 필드는 텍스트를 지우는 대신 **레이어를 숨긴다**. 자식이 모두 숨겨진 컨테이너도 숨긴다.
-4. 더미 텍스트(`#Check_Main_*` 등 레이어명 그대로 남은 텍스트)가 결과물에 남으면 안 된다.
+4. 더미 텍스트(`#Check_Main_txt_*` 등 레이어명 그대로 남은 텍스트)가 결과물에 남으면 안 된다.
 5. 가격 표기는 의뢰서 원문 형식 그대로 쓴다 (쉼표 포함, "원" 표기 여부는 템플릿 기준).
 6. `전면CG_묶음` 안의 노드는 템플릿으로 인식하지 않는다.
 

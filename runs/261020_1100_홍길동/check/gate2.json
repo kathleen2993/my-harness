@@ -1,0 +1,68 @@
+{
+  "gate": "gate2",
+  "result": "fail",
+  "fails": 1,
+  "maxFails": 3,
+  "time": "2026-10-11T13:57:07.500Z",
+  "checks": [
+    {
+      "id": "price_mismatch",
+      "value": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "id": "card_detached",
+      "value": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "id": "dummy_text",
+      "value": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "id": "content_missing",
+      "value": 3,
+      "limit": 0,
+      "pass": false,
+      "details": [
+        "#5 main: \"5만원 이상 파우치 1개\" 가 Figma 05번 전면에 보이지 않음",
+        "#5 main: \"8만원 이상 미니 앰플 1개\" 가 Figma 05번 전면에 보이지 않음",
+        "#5 sub: \"*실결제가 기준\" 가 Figma 05번 전면에 보이지 않음"
+      ]
+    },
+    {
+      "id": "font_substituted",
+      "value": 0,
+      "limit": 0,
+      "pass": true
+    },
+    {
+      "id": "slide_count_match",
+      "value": "7/7",
+      "limit": true,
+      "pass": true
+    },
+    {
+      "id": "banner_required_if_requested",
+      "value": true,
+      "limit": true,
+      "pass": true,
+      "details": [
+        "요청 2개 / Figma 2개"
+      ]
+    },
+    {
+      "id": "empty_slide_required_if_requested",
+      "value": true,
+      "limit": true,
+      "pass": true,
+      "details": [
+        "요청 있음"
+      ]
+    }
+  ]
+}

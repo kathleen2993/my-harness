@@ -1,0 +1,136 @@
+{
+  "templates": {
+    "mobileLiveModule": "7:706",
+    "cardPrd": "7:564",
+    "cardChecklist": "7:541",
+    "cardStory": "7:552",
+    "bg": "7:442",
+    "logo": "7:445",
+    "banner": "11:975",
+    "cardMultiPrd": "11:6217",
+    "cardGift": "12:6673"
+  },
+  "bgColor": "#DFF5EE",
+  "slides": [
+    {
+      "num": 1,
+      "type": "BENEFIT_LIST",
+      "compType": "#MainCard_Checklist",
+      "title": "가을 보습 특집 생방송",
+      "showTitle": true,
+      "listItems": [
+        "방송중 최대 40% 할인",
+        "행사카드 7% 즉시할인",
+        "전 상품 무료배송"
+      ],
+      "hasImage": false
+    },
+    {
+      "num": 2,
+      "type": "PRD_PRICE",
+      "compType": "#MainCard_Prd",
+      "tag1": "BEST",
+      "prdTitle": "수분 크림 대용량 세트",
+      "prdSubTitle": "크림 100ml*2 + 미니 30ml",
+      "hasImage": true,
+      "originalPrice": "59,000",
+      "discountRate": "40%",
+      "discountPrice": "35,400",
+      "hasDual": true,
+      "priceTag2": "행사카드 7%",
+      "dualDiscountPrice": "32,922",
+      "promotion": "(무3)"
+    },
+    {
+      "num": 3,
+      "type": "PRD_PRICE",
+      "compType": "#MainCard_Prd",
+      "prdTitle": "수분 토너 2개 세트",
+      "prdSubTitle": "토너 300ml*2",
+      "hasImage": true,
+      "originalPrice": "38,000",
+      "discountRate": "30%",
+      "discountPrice": "26,600"
+    },
+    {
+      "num": 4,
+      "type": "MULTI_PRD",
+      "compType": "#MainCard_MultiPrd",
+      "showTitle": false,
+      "items": [
+        {
+          "prdTitle": "앰플 단품",
+          "prdSubTitle": "30ml*1",
+          "hasImage": true,
+          "originalPrice": "32,000",
+          "discountRate": "25%",
+          "discountPrice": "24,000"
+        },
+        {
+          "prdTitle": "앰플 2개 세트",
+          "prdSubTitle": "30ml*2",
+          "hasImage": true,
+          "originalPrice": "64,000",
+          "discountRate": "35%",
+          "discountPrice": "41,600"
+        }
+      ]
+    },
+    {
+      "num": 5,
+      "type": "GIFT_EVENT",
+      "compType": "#MainCard_Gift",
+      "title": "오늘 하루 혜택이 팡팡!",
+      "showTitle": true,
+      "gifts": [
+        {
+          "target": "구매 전고객",
+          "name": "미니 크림 10ml 증정",
+          "note": "*ID당 1회",
+          "hasImage": true
+        }
+      ],
+      "tiers": [
+        {
+          "main": "5만원 이상 파우치 1개"
+        },
+        {
+          "main": "8만원 이상 미니 앰플 1개",
+          "sub": "*실결제가 기준"
+        }
+      ]
+    },
+    {
+      "num": 6,
+      "type": "STORY_DESC",
+      "compType": "#MainCard_Story",
+      "showTitle": false,
+      "storyMain1": "누적 판매 100만 개 돌파",
+      "showLogo": true,
+      "highlightText": "예시뷰티 수분 크림",
+      "listItems": [
+        "72시간 보습 지속",
+        "피부 자극 테스트 완료"
+      ],
+      "storySub": "*사용감에는 개인차가 있음",
+      "hasImage": true
+    },
+    {
+      "num": 7,
+      "type": "EMPTY",
+      "compType": "NONE"
+    }
+  ],
+  "banners": [
+    {
+      "title": "수분 크림 대용량 세트",
+      "discountRate": "40%",
+      "discountedPrice": "35,400"
+    },
+    {
+      "title": "수분 토너 2개 세트",
+      "discountRate": "30%",
+      "discountedPrice": "26,600"
+    }
+  ]
+}

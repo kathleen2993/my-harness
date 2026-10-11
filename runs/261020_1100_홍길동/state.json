@@ -1,0 +1,34 @@
+{
+  "run": "261020_1100_홍길동",
+  "created": "2026-10-11T13:25:45.219Z",
+  "stage": "p3",
+  "gates": {
+    "gate1": {
+      "result": "pass",
+      "fails": 0,
+      "time": "2026-10-11T13:44:57.927Z"
+    },
+    "gate2": {
+      "result": "fail",
+      "fails": 1,
+      "time": "2026-10-11T13:57:07.500Z"
+    }
+  },
+  "fileKey": "0owVzRVeOYpr8OEC4kNlzc",
+  "pageId": "7:441",
+  "templates": {
+    "mobileLiveModule": "7:706",
+    "cardPrd": "7:564",
+    "cardChecklist": "7:541",
+    "cardStory": "7:552",
+    "bg": "7:442",
+    "logo": "7:445",
+    "banner": "11:975",
+    "cardMultiPrd": "11:6217",
+    "cardGift": "12:6673"
+  },
+  "approval": {
+    "verdict": "WAIT",
+    "time": "2026-10-11T13:38:26.385Z"
+  }
+}
